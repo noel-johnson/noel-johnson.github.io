@@ -68,7 +68,7 @@
       <hr>
       <section>
         <h1>Contact</h1>
-        <form method="POST" netlify>
+        <form method="POST" name="Contact"netlify>
           <label>
             Name:&nbsp;
           </label>
@@ -81,6 +81,7 @@
             Message:&nbsp;
           </label>
           <textarea name="message" id="message" maxlength="300" cols="40" rows="10" name="Message" placeholder="Message" required></textarea>
+          <div data-netlify-recaptcha="true" style="margin-top: 5px;"></div>
           <button type="submit">Send</button>
         </form>
       </section>
